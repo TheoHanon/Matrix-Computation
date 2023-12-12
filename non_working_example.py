@@ -4,7 +4,7 @@ from sklearn.decomposition import KernelPCA
 from sklearn.datasets import make_moons, make_circles, make_classification
 
 # Generate some sample data
-X, y = make_moons(n_samples=100, random_state=42)
+X, y = make_circles(n_samples=100, random_state=42)
 
 # Define the list of kernels
 kernels = ['linear', 'poly', 'rbf', 'sigmoid', 'cosine']
